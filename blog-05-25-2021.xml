@@ -1801,6 +1801,7 @@ var noThumbnail = "https://4.bp.blogspot.com/-eALXtf-Ljts/WrQYAbzcPUI/AAAAAAAABj
         <data:post.body/>
       </div>
     </b:includable>
+     <b:includable id='postBodySnippet' var='post'><p class='entry-excerpt excerpt'><b:eval expr='data:post.snippets.long snippet { length: 125 }'/></p></b:includable>
     <b:includable id='postBreadcrumbs' var='post'>
       <!-- Post Breadcrumbs -->
       <b:if cond='data:view.isPost'>
